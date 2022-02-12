@@ -27,7 +27,7 @@ struct Welcome: View {
                         Text("Royal Villas Resort").font(.system(size: 72)).fontWeight(.heavy).foregroundColor(.white)
                         Text("At West Kendall").font(.system(size: 36)).fontWeight(.light).foregroundColor(.white)
                     }
-                    .padding(.bottom, 150)
+                    .padding(.bottom, 100)
 
                     Button(action: navigateToNext, label: {Text("Tap Here To Begin")
                         .foregroundColor(Color.white)})
